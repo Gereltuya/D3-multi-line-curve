@@ -3,7 +3,6 @@
 var origins=[];
     
   d3.queue()
-    
     .defer(function(url, callback) {
         d3.text(url, function(error, d) {
             console.log("txt");
@@ -47,7 +46,29 @@ var topTenData=data[0].sort(function(a,b){
     return d3.descending(+a.recommended_weekly_spend+b.recommended_weekly_spend);
 }).slice(0, 10);
 
-console.log(topTenData);
+var maxVal = d3.max(topTenData, function (d) { return d.max_x_val; });
+
+console.log(maxVal);
+
+topTenData.forEach(function(ds,i){
+    
+    var lineData=d3.range(0,maxVal,100)
+        .map(x => [x, (ds.alpha * (1 - Math.pow(2.71828, (-ds.beta * x))))]);
+    var arr=[];
+    
+    for(var i=0;i<lineData.length;i++)
+    {
+        arr.push({
+            x:lineData[i][0],
+            y:lineData[i][1]
+        });
+    }
+    ds.arr=arr;
+    console.log(topTenData);
+     
+        
+})
+
 }
     
 })();
