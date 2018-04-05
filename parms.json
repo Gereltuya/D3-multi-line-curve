@@ -1,0 +1,25 @@
+[  
+   {  
+      "Optimization_Level":"Direct Partners",
+      "Channels":"Display",
+      "Optimization_Type":"Breakout",
+      "Optimization_Budget":"225000",
+      "Product_Categories":"Home Theater",
+      "Campaign_Goal":"Consideration",
+      "Campaign_Length":"2 weeks",
+      "Username":"hubrepet1",
+      "Date":"03/15/2018 10:24",
+      "Campaign_Goal_Filter":"Consideration",
+      "Name_Optimization_Run":"Magnolia Videofest",
+      "Campaign_Type":"Full Funnel",
+      "Fiscal_Year_Selection":[  
+         "FY18,FY19"
+      ],
+      "MDF_Vendors":[  
+         "Google,LG,Samsung,Sony"
+      ],
+      "Campaign_Name":[  
+         "BB_01FY18_FF_PRESBOWLSAMSUNG,BB_01FY18_FF_PRESUPERBOWLLG,BB_01FY18_FF_PRESUPERBOWLSONY,BB_05FY18_FF_JUNEOLEDHTLG,BB_05FY18_FF_MAYOLEDHTSONY,BB_05FY18_FF_MAYQLEDHTSAMSUNG,BB_06FY18_FF_Q2CUTCORDHTGOOG,BB_07FY18_FF_AUGOLEDHTLG,BB_08FY18_FF_AUGOLEDHTSONY,BB_08FY18_FF_SEPQLEDHTSAMSUNG,BB_10FY18_FF_OCTOLEDHTLG,BB_10FY18_FF_OCTOLEDHTSONY"
+      ]
+   }
+]
